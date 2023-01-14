@@ -1,8 +1,148 @@
-h1 {
-    background-color: blue;
-    color: #fff;
-    font-size: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Common css */
+
+.container{
+    width: 1270px;
+    margin: auto;
+    
+     
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header Part Css Here */
+.nav-Items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-Items ul , li, a {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px;
+    color: black;
+}
+.nav-Items .logo {
+ font-size: 30px;
+ color: black;
+}
+
+///
+
+
+
+/* Css for   Banner Section */
+
+.hero_Info {
     text-align: center;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 862px;
+    margin: auto;
+    height: auto;
+}
+
+.hero_Info h1 {
+    font-size: 64px;
+}
+.hero_Info p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    margin-top: -35px;
+}
+.hero_Info button{
+    font-size: 20px;
+    width: 180px;
+    height: 64px;
+    top: 463px;
+    margin-bottom: 58px;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    border: none;
+    color: #FFFFFF;
+    
+}
+
+/* .baner_Img img{
+    width: 100%;
+} 
+
+
+
+/* **************************************************************************** */
+
+
+/* Features section */
+.features_Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    background-color:#fff;
+}
+
+
+.features_Img{
+
+
+display: grid;
+
+grid-template-columns: repeat(2,1fr);
+gap: 24px;
+
+}
+
+
+.features_Info{
+    padding-left: 50px;
+}
+
+
+
+.features_Img img{
+
+width: 277px;
+}
+
+
+
+.features_Info button{
+    font-size: 20px;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+span.colorfull_Our {
+    color:#131313;
+}
+
+span.colorfull_features {
+    color: #FF900E;
+}
+
+
+
+.features_Info h1 {
+    color: #A1A1A1;
+    line-height: 35px;
+    font-size: 30px;
+}
+
+.features_Info p {
+    width: 537px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #A1A1A1;
 }
