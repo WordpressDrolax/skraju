@@ -218,7 +218,7 @@ span.colorfull_features {
 
 
 .success {
-   
+
     text-align: center;
     width: 230px;
     height: 90px;
@@ -362,7 +362,7 @@ span.colorfull_features {
 
     }
 
-/* Header css part here */
+    /* Header css part here */
 
 
     .nav-Items {
@@ -383,7 +383,7 @@ span.colorfull_features {
 
     }
 
-/* hero section css part here */
+    /* hero section css part here */
 
     .hero_Info {
         width: 500px;
@@ -399,7 +399,8 @@ span.colorfull_features {
         margin-top: -20px;
         padding-bottom: 30px;
     }
-/* Feature css part here */
+
+    /* Feature css part here */
 
     #features_Wrapper {
         flex-direction: column;
@@ -437,7 +438,7 @@ span.colorfull_features {
     }
 
 
-/* Feature blog css part here */
+    /* Feature blog css part here */
 
 
 
@@ -487,12 +488,12 @@ span.colorfull_features {
         left: -1px;
     }
 
-/* Some Facts css part here*/
+    /* Some Facts css part here*/
 
     .section_Info h1 {
         font-size: 30px;
         font-weight: 700;
-        
+
     }
 
 
@@ -516,7 +517,7 @@ span.colorfull_features {
     }
 
     /* sponspors css part here */
-    
+
     .sponspors_Tittle h1 {
         font-size: 30px;
     }
@@ -528,11 +529,12 @@ span.colorfull_features {
     }
 
     /*footer  css part here */
-    
+
     .footer_Info {
         background-color: antiquewhite;
         width: 550px;
         margin: auto;
+        margin-top: 30px;
     }
 
     .footer_Info h3 {
