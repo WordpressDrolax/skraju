@@ -41,7 +41,11 @@ body{
 
 
 
-/* Css for   Banner Section */
+/* Css for Banner Section */
+
+#hero_section_Wrapper{
+    padding: 40px 0px;
+}
 
 .hero_Info {
     text-align: center;
@@ -83,11 +87,11 @@ body{
 
 
 /* Features section */
-.features_Wrapper {
+#features_Wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0px;
+    padding: 40px 0px;
     background-color:#fff;
 }
 
@@ -153,10 +157,10 @@ span.colorfull_features {
 
 /* Features Blog */
 
-.features_blog_wrapper {
+#features_blog_wrapper {
     display: flex;
     align-items: center;
-    padding: 80px 0px;
+    padding: 40px 0px;
 }
 .features_blog {
     width: 50%;
@@ -213,7 +217,7 @@ font-weight: 700;
     z-index: 1;
     top: 10;
     left: 890px;
-    margin-top: -220px;
+    margin-top: -180px;
     border-radius: 10px;
 } 
 
@@ -237,13 +241,14 @@ font-weight: 700;
 }
 
 /* Some Facts  */
-.some_Facts_Wrapper {
-    padding: 50px 0px;
+#some_Facts_Wrapper {
+    padding: 40px 0px;
 }
 .section_Info {
     width: 336px;
     letter-spacing: 1px;
     line-height: 20px;
+    padding-bottom: 40px;
 }
 
 .section_Info h1 {
@@ -300,8 +305,8 @@ font-weight: 700;
 
 
 /* ************* */
-.sponspors_Wrapper {
-    padding: 50px 0px;
+#sponspors_Wrapper {
+    padding: 40px 0px;
 }
 .all_Sponspors {
     display: flex;
